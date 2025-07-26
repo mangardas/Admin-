@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jalwa Admin Login</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 60px;
+      background-color: #f0f0f0;
+    }
+    input {
+      padding: 10px;
+      margin: 8px;
+      width: 250px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Jalwa Admin Login</h2>
+  <form action="/login" method="POST">
+    <input name="username" placeholder="Username" required /><br>
+    <input name="password" type="password" placeholder="Password" required /><br>
+    <button type="submit">Login</button>
+  </form>
+</body>
+</html>
